@@ -1,0 +1,168 @@
+body{
+    background: linear-gradient(#53776c, #2c3133);
+    background-image: url(../img/81mz.gif);
+}
+.menu{
+    border: 1px solid skyblue;
+    font-family: 'EB Garamond', serif;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+}
+.menu:hover{
+    background-color: skyblue;
+    color: black;
+}
+table{
+    text-align: center;
+}
+td{
+    border: 2px solid rgb(236, 234, 241);
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .6vw;
+    color: white;
+    position: relative;
+    left: 185px;
+    top: -20px;
+    overflow-x: hidden;
+}
+td:hover{
+    height: 50%;
+}
+.tdbegin1{
+    border: none;
+   
+}
+.tdbegin2{
+    border: none;
+    font-size: 50px;
+    font-family:Tahoma;
+    font-weight: bold;
+    color: rgb(31, 17, 156);
+    text-shadow: 0 0 20px #34a4ee, 0 0 30px #38b2e2, 0 0 30px rgb(25, 182, 230);
+}
+.td2{
+    border: none;
+}
+.td3{
+    border: none;
+}
+.td4{
+    border: none;
+}
+.element{
+    font-weight: bold;
+}
+th{
+    border: 2px solid black;
+}
+.tdlow{
+    border: none;
+    height: 20px;
+}
+.td7, .td8, .td10{
+    border: none;
+    font-weight: bold;
+}
+.ele1{
+    background-color: #112d60;
+    box-shadow: 5px 5px 5px white;
+}
+.ele1:hover{
+    transform: scale(1.12);
+    z-index: 10;
+    background: linear-gradient(#112d60, #6aa7c7);
+}
+.ele2{
+    background-color: #69115d;
+    box-shadow: 5px 5px 5px white;
+}
+.ele2:hover{
+    transform: scale(1.12);
+    z-index: 10;
+    background: linear-gradient(#69115d, #cf2dc2);
+}
+.ele3{
+    background-color: #410857;
+    box-shadow: 5px 5px 5px white;
+}
+.ele3:hover{
+    transform: scale(1.12);
+    z-index: 10;
+    background: linear-gradient(#741886, #a340e6);
+}
+.ele4{
+    background-color: rgb(42, 91, 148);
+    box-shadow: 5px 5px 5px white;
+}
+.ele4:hover{
+    transform: scale(1.12);
+    z-index: 10;
+    background: linear-gradient(#043d5e, #38b2e2);
+}
+.ele5{
+    background-color: rgb(231, 150, 27);
+    box-shadow: 5px 5px 5px white;
+}
+.ele5:hover{
+    transform: scale(1.12);
+    z-index: 10;
+    background: linear-gradient(#f1b40a, #6e550e);
+}
+.ele6{
+    background-color: rgb(11, 128, 24);
+    box-shadow: 5px 5px 5px white;
+}
+.ele6:hover{
+    transform: scale(1.12);
+    z-index: 10;
+    background: linear-gradient(#03411d, #34e242);
+}
+.ele7{
+    background-color: rgb(176, 121, 26);
+    box-shadow: 5px 5px 5px white;
+}
+.ele7:hover{
+    transform: scale(1.12);
+    z-index: 10;
+    background: linear-gradient(#666407, #d3c124);
+}
+
+.ele8{
+    background-color: rgb(137, 112, 3);
+    box-shadow: 5px 5px 5px white;
+}
+.ele8:hover{
+    transform: scale(1.12);
+    z-index: 10;
+    background: linear-gradient(#5f5907, #c9bc10);
+}
+
+.ele9{
+    background-color: rgb(97, 132, 28);
+    box-shadow: 5px 5px 5px white;
+}
+.ele9:hover{
+    transform: scale(1.12);
+    z-index: 10;
+    background: linear-gradient(#3d851b, #1a8111);
+}
+.ele10{
+    background-color: rgb(148, 9, 9);
+    box-shadow: 5px 5px 5px white;
+}
+.ele10:hover{
+    transform: scale(1.12);
+    z-index: 10;
+    background: linear-gradient(#ec4040, #6e0505);
+}
+
+.ele10{
+   background-color: rgb(156, 41, 41);
+   box-shadow: 5px 5px 5px white;
+}
