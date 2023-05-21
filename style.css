@@ -1,0 +1,232 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.menu{
+    font-family: 'EB Garamond', serif;
+    font-size: 2vw;
+    text-decoration: none;
+    color: white;
+    border-right: 3px solid black;
+    border-bottom: 3px solid rgb(24, 23, 23);
+    border-top: 3px solid grey;
+    border-left: 3px solid rgb(224, 218, 218);
+}
+.menu:hover{
+    color: white;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    background-color: rgb(195, 182, 182);
+    border-left: 3px solid black;
+    border-top: 3px solid rgb(24, 23, 23);
+    border-bottom: 3px solid grey;
+    border-right: 3px solid rgb(224, 218, 218);
+    transition: 1s;
+}
+.navbar{
+    background-color: rgb(26, 25, 25);
+    min-height: 100px;
+    background-size: cover;
+    border-bottom: 1px solid white;
+}
+.home_section{
+       background-image: linear-gradient(to right, black,rgb(61, 58, 58), rgb(137, 124, 124));
+       background-repeat: no-repeat;
+       background-size: cover;
+       height: 745px;
+       overflow-x: hidden;
+}
+.logo{
+    object-fit: cover;
+    max-width: 35vw;
+    height: auto;
+    position: relative;
+    bottom: -140px;
+    right: -120px;
+}
+.jrndevs{
+    color: white;
+    font-size: 5vw;
+    font-family: 'EB Garamond', serif;
+    position: relative;
+    bottom: -260px;
+    right: -40px;
+    display: inline;
+    border-left: 3px solid black;
+    border-top: 3px solid rgb(24, 23, 23);
+    border-bottom: 3px solid grey;
+    border-right: 3px solid rgb(224, 218, 218);
+}
+.intro{
+    position: relative;
+    bottom: -250px;
+    right: -40px;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 1.2vw;
+    text-shadow: 2px 2px 10px white;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+}
+.dev{
+    color: black;
+}
+.aboutus_section{
+    background-image: linear-gradient(to right, black,rgb(61, 58, 58), rgb(137, 124, 124));
+    overflow: hidden;
+}    
+#about{
+    font-size: 4vw;
+    color: white;
+    font-weight: bold;
+    font-family: 'EB Garamond', serif;
+    border-bottom: 1px solid white;
+    padding-top: 90px;
+}
+.carousel-caption{
+    font-family: 'EB Garamond', serif;
+}
+.carousel-inner{
+    background-image: url(../img/carouselbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.carousel-control-prev,.carousel-control-next{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    background-color: black;
+    border-radius: 10px;
+}
+.carousel-control-prev:hover,.carousel-control-next:hover{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    background-color: rgb(53, 51, 51);
+    border-radius: 10px;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    border-radius: 10px;
+}
+.jarvee,.rhea,.novie{
+    border-radius: 50%;
+    border-left: 4px solid rgb(33, 32, 32);
+    border-top: 4px solid rgb(33, 32, 32);
+    border-bottom: 2px solid rgb(33, 32, 32);
+    height: 520px;
+    object-fit: cover;
+    margin: auto;
+    box-shadow: 2px 5px 10px white;
+}
+.cpc{
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 5px;
+}
+.quotes{
+    font-family: 'Brush Script Mt', cursive;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.devImg{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+.modalhead{
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    text-shadow: 10px 10px 10px black;
+}
+.modal-content{
+    background-image: url(../img/carouselbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+}
+.activities_section{
+    background-image: linear-gradient(to right, black,rgb(61, 58, 58), rgb(137, 124, 124));
+    border-bottom: 1px solid white;
+    height: 100vh;
+}
+#activities{
+    font-size: 4vw;
+    color: white;
+    font-weight: bold;
+    font-family: 'EB Garamond', serif;
+    border-bottom: 1px solid white;
+    padding-top: 90px;
+}
+.act1, .act2,.act3{
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    color: white;
+}
+.periodic_table, .survey_form,.shop{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 5vw;
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    border: 2px solid white;
+    background-image: url(../img/carouselbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.periodic_table:hover{
+    color: cyan;
+    background-image: url(../img/ptable.png);
+    transition: 1s;
+    padding-bottom: 150px;
+    border-radius: 5px;
+}
+.survey_form:hover{
+    color: rgb(0, 0, 0);
+    background-image: url(../img/surveyform.png);
+    transition: 1s;
+    padding-bottom: 150px;
+    border-radius: 5px;
+}
+.shop:hover{
+    color: white;
+    background-image: url(../img/shopbg.png);
+    transition: 1s;
+    padding-bottom: 150px;
+    border-radius: 5px;
+}
+#contact{
+    font-size: 4vw;
+    color: white;
+    font-weight: bold;
+    font-family: 'EB Garamond', serif;
+    border-bottom: 1px solid white;
+}
+.contact_section{
+    background-image: linear-gradient(to right, black,rgb(61, 58, 58), rgb(137, 124, 124));
+    border-bottom: 1px solid white;
+    height: 88vh;
+}
+.form{
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 380px;
+    width: 800px;
+    color: white;
+    background-image: url(../img/carouselbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jarvgal,.rheagal,.noviegal{
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid white;
+    margin-top: 25px;
+    border-radius: 20px;
+}
